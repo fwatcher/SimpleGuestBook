@@ -5,7 +5,7 @@ error_reporting(E_ERROR);
 define('DB_HOST', 'localhost');
 
 define('DB_USER', 'root');
-define('DB_PWD','woaini123');
+define('DB_PWD','xxxxx');
 
 define('DB_CHARSET', 'utf-8');
 define('DB_NAME', 'login');
