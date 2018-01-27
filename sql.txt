@@ -1,0 +1,25 @@
+login
+
+users(id, username, password)
+
+message(id, date, content, owner)
+
+create table users(
+`id` int(3) primary key auto_increment,
+`username` varchar(15) not null,
+`password` varchar(20) not null
+);
+
+create table message(
+`id` int(3) primary key auto_increment,
+`mdate` datetime not null,
+`content` varchar(50) not null,
+`owner` varchar(15) not null
+);
+
+create table filemsg(
+id int(3) primary key auto_increment,
+`fdate` datetime not null,
+filename varchar(20) not null,
+owner varchar(15) not null
+);
